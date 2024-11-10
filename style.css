@@ -19,30 +19,30 @@ header {
     align-items: center;
 }
 
-
-.header h1 {
-    font-family:'Times New Roman', Times, serif; 
-    font-size: 24px;
+h1 {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 24px; 
     color: #333; 
     margin: 0; 
 }
 
 .logo {
     display: block;
-    margin: 0 auto;
-    width: 150px; 
+    margin: 20px auto;
+    width: 150px;
 }
 
-
 .logo img {
-    height: 100px;
+    height: auto;
+    max-width: 100%;
 }
 
 nav ul {
     list-style: none;
-    display: inline-flex;
-    gap: 20px;
+    display: flex;
+    justify-content: center; 
     padding-top: 10px;
+    margin: 0;
 }
 
 nav a {
@@ -51,6 +51,7 @@ nav a {
     font-weight: bold;
     padding: 10px;
     transition: color 0.3s, background-color 0.3s;
+    font-size: 1rem; 
 }
 
 nav a:hover {
@@ -62,7 +63,6 @@ nav a:hover {
 .gallery {
     display: flex;
     justify-content: center;
-    padding: 0px;
     background-color: transparent;
 }
 
@@ -70,7 +70,6 @@ nav a:hover {
     width: 100%;
     height: auto;
     object-fit: cover;
-    margin: 0;
     border: none;
 }
 
@@ -79,6 +78,7 @@ nav a:hover {
     padding: 40px 20px;
     background-color: #E7D7C9;
     align-items: center;
+    justify-content: center;
 }
 
 .founder-image img {
@@ -91,3 +91,75 @@ nav a:hover {
     font-family: 'Times New Roman', Times, serif;
     max-width: 600px;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 0.9rem; 
+        padding: 8px 12px; 
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .founder-image img {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    nav ul {
+        gap: 10px; 
+    }
+
+    nav a {
+        font-size: 0.85rem; 
+        padding: 6px 10px; 
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+
+    .about {
+        padding: 15px;
+    }
+
+    .founder-image img {
+        width: 200px;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
