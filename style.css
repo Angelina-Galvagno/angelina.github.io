@@ -191,3 +191,49 @@ nav a:hover {
     width: 45%; 
     height: auto;
 }
+.sculptures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+}
+
+.image-column {
+    margin-bottom: 20px;
+}
+
+.image-column img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.image-row {
+    display: flex;
+    gap: 2px; /* Espace entre les images */
+    justify-content: center; /* Centrer les images dans le conteneur */
+}
+
+.image-row img {
+    width: 45%; /* Ajuste la largeur pour qu'elles soient côte à côte */
+    height: auto;
+}
+.ateliers h2, footer h2 {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.atelier1{
+    
+        width: 10%; /* Réduit l'image à 50% de sa largeur d'origine */
+        height: 40; /* Maintient le ratio de l'image */
+   
+}
+.ateliers p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
