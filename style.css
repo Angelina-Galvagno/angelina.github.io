@@ -80,7 +80,7 @@ nav a:hover {
     justify-content: center;
 }
 
-.founder-image img {
+.founder-Image img {
     width: 300px;
     border-radius: 10px;
     margin-right: 20px;
@@ -114,7 +114,7 @@ nav a:hover {
         align-items: center;
     }
 
-    .founder-image img {
+    .founder-Image img {
         width: 250px;
         margin-bottom: 20px;
     }
@@ -150,7 +150,7 @@ nav a:hover {
         padding: 15px;
     }
 
-    .founder-image img {
+    .founder-Image img {
         width: 200px;
     }
 
@@ -181,13 +181,13 @@ nav a:hover {
   border: 2px solid #ccc;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.image-row {
+.Image-row {
     display: flex;
     gap: 20px; 
     justify-content: center; 
 }
 
-.image-row img {
+.Image-row img {
     width: 45%; 
     height: auto;
 }
