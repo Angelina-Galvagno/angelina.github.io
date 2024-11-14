@@ -5,13 +5,13 @@
 }
 
 body {
+    background-color: #E7D7C9;
     font-family: Arial, sans-serif;
     color: #333;
 }
 
 header {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #E7D7C9;
     padding: 20px;
     text-align: center;
     display: flex;
@@ -76,12 +76,11 @@ nav a:hover {
 .about {
     display: flex;
     padding: 40px 20px;
-    background-color: #E7D7C9;
     align-items: center;
     justify-content: center;
 }
 
-.founder-Image img {
+.founder-image img {
     width: 300px;
     border-radius: 10px;
     margin-right: 20px;
@@ -115,7 +114,7 @@ nav a:hover {
         align-items: center;
     }
 
-    .founder-Image img {
+    .founder-image img {
         width: 250px;
         margin-bottom: 20px;
     }
@@ -151,7 +150,7 @@ nav a:hover {
         padding: 15px;
     }
 
-    .founder-Image img {
+    .founder-image img {
         width: 200px;
     }
 
@@ -162,4 +161,33 @@ nav a:hover {
 
 
 
+.gallery-item{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
 
+
+.paintings {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-bottom: 20px;
+}
+
+.paintings img, .sculptures img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.image-row {
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+}
+
+.image-row img {
+    width: 45%; 
+    height: auto;
+}
