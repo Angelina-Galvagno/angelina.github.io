@@ -282,3 +282,35 @@ footer img {
         width: 80px;
     }
 }
+@media (max-width: 768px) {
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    .sculptures, .ateliers, footer {
+        padding: 10px;
+    }
+
+    .image-container img, .atelier-images img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 1.2em;
+    }
+
+    .ateliers p, footer p {
+        font-size: 0.9em;
+    }
+
+    footer img {
+        width: 80px;
+    }
+}
