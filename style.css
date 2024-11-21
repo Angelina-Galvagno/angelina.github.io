@@ -211,12 +211,12 @@ nav a:hover {
 }
 .Image-row {
     display: flex;
-    gap: 2px; /* Espace entre les images */
-    justify-content: center; /* Centrer les images dans le conteneur */
+    gap: 2px; 
+    justify-content: center; 
 }
 
 .Image-row img {
-    width: 45%; /* Ajuste la largeur pour qu'elles soient côte à côte */
+    width: 45%; 
     height: auto;
 }
 .ateliers h2, footer h2 {
@@ -227,13 +227,4 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
 }
-.atelier1{
-    
-        width: 10%; /* Réduit l'image à 50% de sa largeur d'origine */
-        height: 40; /* Maintient le ratio de l'image */
-   
-}
-.ateliers p {
-    font-size: 1em;
-    margin-bottom: 20px;
-}
+
