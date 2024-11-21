@@ -198,24 +198,24 @@ nav a:hover {
     padding: 2px;
 }
 
-.image-column {
+.Image-column {
     margin-bottom: 20px;
 }
 
-.image-column img {
+.Image-column img {
     width: 100%;
     max-width: 500px;
     height: auto;
     object-fit: cover;
     border-radius: 8px;
 }
-.image-row {
+.Image-row {
     display: flex;
     gap: 2px; /* Espace entre les images */
     justify-content: center; /* Centrer les images dans le conteneur */
 }
 
-.image-row img {
+.Image-row img {
     width: 45%; /* Ajuste la largeur pour qu'elles soient côte à côte */
     height: auto;
 }
