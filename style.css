@@ -80,7 +80,7 @@ nav a:hover {
     justify-content: center;
 }
 
-.founder-Image img {
+.founder-image img {
     width: 300px;
     border-radius: 10px;
     margin-right: 20px;
@@ -114,7 +114,7 @@ nav a:hover {
         align-items: center;
     }
 
-    .founder-Image img {
+    .founder-image img {
         width: 250px;
         margin-bottom: 20px;
     }
@@ -150,7 +150,7 @@ nav a:hover {
         padding: 15px;
     }
 
-    .founder-Image img {
+    .founder-image img {
         width: 200px;
     }
 
@@ -181,16 +181,17 @@ nav a:hover {
   border: 2px solid #ccc;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.Image-row {
+.image-row {
     display: flex;
-    gap: 20px; 
+    gap: 2px; 
     justify-content: center; 
 }
 
-.Image-row img {
+.image-row img {
     width: 45%; 
     height: auto;
 }
+
 .sculptures {
     display: flex;
     flex-direction: column;
@@ -198,11 +199,11 @@ nav a:hover {
     padding: 2px;
 }
 
-.Image-column {
+.image-column {
     margin-bottom: 20px;
 }
 
-.Image-column img {
+.image-column img {
     width: 100%;
     max-width: 500px;
     height: auto;
@@ -219,31 +220,65 @@ nav a:hover {
     width: 45%; 
     height: auto;
 }
-ateliers h2, footer h2 {
-font-family: 'Times New Roman', Times, serif;
-padding: 20px;
-text-align: center;
-display: flex;
-flex-direction: column;
-align-items: center;
+.ateliers h2, footer h2 {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .atelier1{
-width: 10%; 
-height: 40; 
+    
+        width: 10%; 
+        height: 40; 
+   
 }
 .ateliers p {
-font-size: 1em;
-margin-bottom: 20px;
+    font-size: 1em;
+    margin-bottom: 20px;
 }
 
 footer p {
-margin: 5px 0;
+    margin: 5px 0;
 }
 
 footer img {
-width: 150px;
-height: auto;
-margin-top: 10px;
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
 }
 
 
+@media (max-width: 768px) {
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    .sculptures, .ateliers, footer {
+        padding: 10px;
+    }
+
+    .image-container img, .atelier-images img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 1.2em;
+    }
+
+    .ateliers p, footer p {
+        font-size: 0.9em;
+    }
+
+    footer img {
+        width: 80px;
+    }
+}
