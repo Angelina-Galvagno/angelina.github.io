@@ -12,7 +12,7 @@ body {
 
 header {
     font-family: 'Times New Roman', Times, serif;
-    padding: 20px;
+    padding: 200px;
     text-align: center;
     display: flex;
     flex-direction: column;
