@@ -61,19 +61,15 @@ nav a:hover {
 }
 
 .gallery {
-    width: 100%;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
+    background-color: transparent;
 }
 
 .gallery img {
     width: 100%;
     height: auto;
     object-fit: cover;
-    display: block;
-    margin: 0;
     border: none;
 }
 
