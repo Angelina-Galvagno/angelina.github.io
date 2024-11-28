@@ -67,7 +67,7 @@ nav a:hover {
 }
 
 .gallery img {
-   width: 100px;
+   width: 90%px;
     height: auto;
     object-fit: cover;
     border: none;
