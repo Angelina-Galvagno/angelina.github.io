@@ -301,16 +301,4 @@ footer img {
     }
 }
 
-@media (max-width: 480px) {
-    h1, h2 {
-        font-size: 1.2em;
-    }
 
-    .ateliers p, footer p {
-        font-size: 0.9em;
-    }
-
-    footer img {
-        width: 80px;
-    }
-}
