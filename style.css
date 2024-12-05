@@ -164,4 +164,6 @@ footer img {
      display: flex;
     gap: 2px; 
     justify-content: center; 
+     width: 45%; 
+    height: auto;
     }
