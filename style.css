@@ -160,3 +160,8 @@ footer img {
     width: 45%; 
     height: auto;
 }
+.row1 {
+     display: flex;
+    gap: 2px; 
+    justify-content: center; 
+    }
