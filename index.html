@@ -1,205 +1,94 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seine & Art</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Seine et Art</h1>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Seine & Art Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#collections">Nos collections</a></li>
+                <li><a href="#workshops">Nos ateliers</a></li>
+                <li><a href="#contact">Nos contacts</a></li>
+            </ul>
+        </nav>
+    </header>
 
-body {
-    background-color: #E7D7C9;
-    font-family: Arial, sans-serif;
-    color: #333;
-    scroll-behavior: smooth;
-}
+    <section class="gallery">
+        <img src="images/image.principal.jpg" alt="Painting 1">
+    </section>
 
-header {
-    text-align: center;
-    padding: 20px;
-}
+    <section id="about" class="about">
+        <div class="founder-image">
+            <img src="images/image.second.jpg" alt="Richard Lauta">
+        </div>
+        <div class="description">
+            <p>
+                Richard Lauta, né à Paris en 1966, est le fondateur de la galerie Seine & Art.
+                Peintre passionné par le réalisme, il a créé cette galerie pour partager son amour pour ce style artistique.
+                En plus des expositions, Lauta propose des ateliers de peinture pour initier le public à son univers et encourager l'intérêt pour le réalisme.
+                Grâce à ces activités interactives, il invite chacun à découvrir et à s'immerger dans ce monde artistique qui lui tient tant à cœur.
+            </p>
+        </div>
+    </section>
 
-.logo img {
-    width: 150px;
-    margin-bottom: 20px;
-}
+    <section id="collections">
+        <header>
+            <h1>Nos Peintures</h1>
+        </header>
+        <div class="image-row">
+            <img src="images/Tableau1.jpg" alt="Peinture 1">
+            <img src="images/Tableau2.jpg" alt="Peinture 2">
+        </div>
+        <div class="gallery-item">
+            <img src="images/Tableau3.jpg" alt="Peinture 3">
+        </div>
+    </section>
 
-h1, h2 {
-    font-size: 24px;
-    color: #333;
-    margin: 10px 0;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    padding: 10px;
-    transition: color 0.3s, background-color 0.3s;
-    font-size: 1rem;
-}
-
-nav a:hover {
-    color: #fff;
-    background-color: #333;
-    border-radius: 5px;
-}
-
-.gallery img, .gallery-item img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-.about {
-    display: flex;
-    padding: 40px 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.founder-image img, .ateliers img {
-    width: 300px;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-.description {
-    max-width: 600px;
-    text-align: justify;
-    font-size: 1rem;
-}
-
-
-.image-row {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
-
-.image-row img {
-    width: 45%;
-    height: auto;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-}
-
-footer img {
-    width: 150px;
-    margin-top: 10px;
-}
-
-@media (max-width: 768px) {
-    nav ul {
-        flex-wrap: wrap;
-    }
-
-    nav ul li {
-        margin: 10px;
-    }
-
-    .about {
-        flex-direction: column;
-    }
-
-    .founder-image img{
-        width: 250px;
-    }
-}
-
-@media (max-width: 480px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin: 5px 0;
-    }
-
-     
-}
-
-
-.sculptures {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2px;
-}
-
-.image-column {
-    margin-bottom: 20px;
-}
-
-.image-column img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    object-fit: cover;
-    border-radius: 8px;
-}
-.image-row {
-    display: flex;
-    gap: 0px; 
-    justify-content: center; 
-}
-
-.image-row img {
-    width: 45%; 
-    height: auto;
+    <section class="sculptures">
+        <header>
+            <h1>Nos Sculptures</h1>
+        </header>
+       
+            <div class="image-container">
+                <img src="images/pexels-photo-3713476.jpg" alt="sculptures1">
+            </div>
+       <div class="image-row">
     
-}
+        <img src="images/pexels-photo-11731105.jpg" alt="sculptures2">
+                <img src="images/0.jpeg" alt="sculpt2">
+   </div>
+    </section>
 
-.workshops {
-    padding: 20px;
-    text-align: center;
-}
+    <section id="workshops" class="workshops">
+    <header>
+        <h2>Nos Ateliers</h2>
+    </header>
+    <div class="description">
+        <p>
+            Dans notre galerie, nous proposons des ateliers de peinture axés sur le réalisme, encadrés par des professeurs qualifiés, qui sont là pour vous accompagner. Nos cours s'adressent aux petits et aux grands, au tarif de 15 euros de l'heure. Les ateliers sont ouverts de 9h à 16h, et se font uniquement sur réservation. Pour réserver votre place, contactez-nous au 04 93 62 34 56. Venez explorer l'art du réalisme avec nous !
+        </p>
+    </div>
+    <div class="atelier-images">
+        <img src="images/pexels-photo-6925191.jpeg" alt="Atelier 1">
+        <img src="images/pexels-cottonbro-7898625.jpg" alt="Atelier 2">
+    </div>
+</section>
 
-.workshops header h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #333;
-}
-
-.workshops .description {
-    margin-bottom: 20px;
-    text-align: justify;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1rem;
-}
-
-.atelier-images {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    gap: 20px; 
-}
-
-.atelier-images img {
-    width: 90%; 
-    max-width: 400px; 
-    border-radius: 10px;
-}
-
-.image-container img {
-    width: 100%; 
-    max-width: auto; 
-    height: auto; 
-    margin: 10px auto; 
-    display: block; 
-}
+    <footer id="contact">
+        <h2>Nos Contacts</h2>
+        <p>Téléphone : 04 95 20 34 56</p>
+        <p>Email : galerieart@gmail.com</p>
+        <p>Adresse : 12 Rue de l'Art, Paris</p>
+        <img src="images/map.jpg" alt="Carte localisation">
+    </footer>
+</body>
+</html>
