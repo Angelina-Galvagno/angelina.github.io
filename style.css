@@ -160,7 +160,19 @@ footer img {
     width: 45%; 
     height: auto;
 }
-.map {
-    width: 45%; 
+
+
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 600px; /* Limite la largeur maximale de l'image */
     height: auto;
+    object-fit: cover;
+    border-radius: 8px;
 }
