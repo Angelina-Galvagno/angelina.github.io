@@ -20,10 +20,15 @@ header {
     width: 150px;
     margin-bottom: 20px;
 }
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 0; 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ajuste les marges */
+}
+
+.flex-container img {
+  flex: 1 1 calc(33.33% - 10px); /* Taille relative */
+  margin: 5px; /* Ajustez selon vos besoins */
 } 
 h1, h2 {
     font-size: 24px;
