@@ -24,11 +24,12 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; /* Ajuste les marges */
+    gap:0;
 }
 
 .flex-container img {
-  flex: 1 1 calc(33.33% - 10px); /* Taille relative */
-  margin: 5px; /* Ajustez selon vos besoins */
+  flex: 1 1 calc(33.33%); /* Taille relative */
+  margin: 0px; /* Ajustez selon vos besoins */
 } 
 h1, h2 {
     font-size: 24px;
@@ -61,6 +62,17 @@ nav a:hover {
     background-color: #333;
     border-radius: 5px;
 }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* S'ajuste automatiquement */
+    gap: 0; /* Pas d'espace entre les images */
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
 .gallery img, .gallery-item img {
     width: 100%;
@@ -90,12 +102,12 @@ nav a:hover {
 
 .image-row {
     display: flex;
-    gap: 10px;
+    gap: 0px;
     justify-content: center;
 }
 
 .image-row img {
-    width: 45%;
+    width: 48%;
     height: auto;
 }
 
