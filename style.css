@@ -31,6 +31,24 @@ header {
   flex: 1 1 calc(33.33%); /* Taille relative */
   margin: 0px; /* Ajustez selon vos besoins */
 } 
+.titre-avec-traits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Espace entre le titre et les traits */
+}
+
+.trait {
+  flex: 1; /* Permet aux traits de s'étirer */
+  border-bottom: 1px solid #000; /* Crée un trait horizontal */
+}
+
+.titre-avec-traits h2 {
+  margin: 0; /* Retirer la marge par défaut */
+  font-size: 18px; /* Ajuster la taille du texte */
+  text-align: center;
+  font-weight: normal; /* Facultatif selon le style voulu */
+}
 h1, h2 {
     font-size: 24px;
     color: #333;
