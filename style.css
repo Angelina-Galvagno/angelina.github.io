@@ -176,3 +176,13 @@ footer img {
     object-fit: cover;
     border-radius: 8px;
 }
+
+@media (max-width: 768px) {
+    .image-row {
+        flex-direction: column; /* Les images s'empilent */
+    }
+
+    .image-row img {
+        width: 100%; /* Chaque image prend toute la largeur */
+    }
+}
