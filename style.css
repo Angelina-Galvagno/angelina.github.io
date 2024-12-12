@@ -70,7 +70,7 @@ nav a:hover {
     align-items: center;
 }
 
-.founder-image img, .ateliers img {
+.founder-images img, .ateliers img {
     width: 300px;
     border-radius: 10px;
     margin: 0; 
@@ -82,13 +82,13 @@ nav a:hover {
     font-size: 1rem;
 }
 
-.image-row {
+.images-row {
     display: flex;
     gap: 0;
     justify-content: center;
 }
 
-.image-row img {
+.images-row img {
     width: 45%;
     height: auto;
 }
@@ -117,13 +117,13 @@ footer img {
         margin: 0 10px;
     }
 
-    .image-row {
+    .images-row {
         flex-direction: column;
         align-items: center;
         gap: 0; 
     }
 
-    .image-row img {
+    .images-row img {
         width: 100%;
         margin-bottom: 0; 
     }
@@ -159,11 +159,11 @@ footer img {
         margin: 5px 0;
     }
 
-    .image-row img {
+    .images-row img {
         width: 100%;
     }
 
-    .sculptures .image-row {
+    .sculptures .images-row {
         flex-direction: column;
         align-items: center;
     }
